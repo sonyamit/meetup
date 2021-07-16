@@ -28,7 +28,7 @@ Currently there are 3 APIs build using codeigniter framework. The API details ar
     "message": "Participant registered successfully"
 }
 
-** NOTE: **
+**NOTE:**
 The API parameters are validated and relevant validation message is return in API response.
 
 2. ## List API
@@ -87,7 +87,7 @@ The API parameters are validated and relevant validation message is return in AP
     }
 }
 
-** NOTE: **
+**NOTE:**
 For pagination pass page no to the API endpoint as mentione below 
 
 ##### API Endpoint: /participants/<page_no>
@@ -112,13 +112,13 @@ For pagination pass page no to the API endpoint as mentione below
     "message": "Participant details updated successfully"
 }
 
-** NOTE: **
+**NOTE:**
 The API parameters are validated and relevant validation message is return in API response.
 
 ## Steps To Follow To Test APIs
 1. Clone repository [GitHub](https://github.com/sonyamit/meetup.git)
-2. Run command ** composer install ** to install dependencies via composer
-3. Set base URL in ** application/config/config.php ** file
-4. Import database using database dump located at path ** db_scripts/meetup.sql **
-5. Set your database credentials like (hostname, username, password and database) in ** application/config/database.php ** file
+2. Run command **composer install** to install dependencies via composer
+3. Set base URL in **application/config/config.php** file
+4. Import database using database dump located at path **db_scripts/meetup.sql**
+5. Set your database credentials like (hostname, username, password and database) in **application/config/database.php** file
 
